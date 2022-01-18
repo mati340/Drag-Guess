@@ -1,0 +1,22 @@
+{
+  "name": "drag-guess",
+  "version": "1.0.0",
+  "description": "\"# Drag-Guess\"",
+  "main": "index.js",
+  "scripts": {
+    "server": "cd server && npm start",
+    "client-react": "cd drag-guess && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client-react\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mati340/Drag-Guess.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mati340/Drag-Guess/issues"
+  },
+  "homepage": "https://github.com/mati340/Drag-Guess#readme"
+}
