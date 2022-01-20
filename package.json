@@ -4,6 +4,7 @@
   "description": "\"# Drag-Guess\"",
   "main": "index.js",
   "scripts": {
+    "install-all": "npm-recursive-install",
     "server": "cd server && npm start",
     "client-react": "cd drag-guess && npm start",
     "dev": "concurrently \"npm run server\" \"npm run client-react\"",
@@ -18,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/mati340/Drag-Guess/issues"
   },
-  "homepage": "https://github.com/mati340/Drag-Guess#readme"
+  "homepage": "https://github.com/mati340/Drag-Guess#readme",
+  "dependencies": {
+    "install-all": "^1.1.0"
+  }
 }
