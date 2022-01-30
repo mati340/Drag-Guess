@@ -58,7 +58,8 @@ io.on('connection', (socket) => {
        
         socket.on('disconnect', () => {
             waitingSockets = waitingSockets.filter((savedSocket) => savedSocket != socket);             
-            playingSockets = playingSockets.filter((savedSocket) => savedSocket != socket);   
+            playingSockets = playingSockets.filter((savedSocket) => savedSocket != socket);  
+            currScore = 0; 
         });
 
         socket.on('startPlay', () => {
